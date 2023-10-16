@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Geologica&family=Inter:wght@100;400&family=Jost:wght@700&family=Montserrat:ital,wght@0,300;1,400&family=Nunito:ital,wght@1,300&family=Open+Sans&family=Poppins:ital,wght@0,100;0,200;0,400;1,100;1,200;1,300&family=Quicksand:wght@300&family=Roboto:ital,wght@0,100;0,400;0,500;0,900;1,100&family=Rubik&family=Ysabeau+Infant:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Geologica&family=Inter:wght@200;400&family=Jost:wght@700&family=Montserrat:ital,wght@0,300;1,400&family=Nunito:ital,wght@1,300&family=Open+Sans&family=Poppins:ital,wght@0,100;0,200;0,400;1,100;1,200;1,300&family=Quicksand:wght@300&family=Roboto:ital,wght@0,100;0,400;0,500;0,900;1,100&family=Rubik&family=Ysabeau+Infant:wght@200&display=swap');
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+    top: 0;    
+}
+
+nav .group{
+    
+position: relative;
+Top: -24.9px;
+Left: 79.9px;
+Width:41.62px;
+Height:39.95px;
+color: rgba(0, 82, 204, 1);
+}
+
+nav .btn{
+    position: relative;
+    Top: -24.9px;
+   Left: 820.9px;
+   font-family: RNS Sanz;
+   background-color: transparent;
+font-size: 24px;
+font-weight: 300;
+line-height: 41px;
+letter-spacing: 0em;
+text-align: right;
+color: rgba(0, 82, 204, 1);
+border-radius: 22px;
+padding: 5px 15px;
+border: 2px solid rgba(0, 82, 204, 1);
+ text-decoration: none;
+}
+
+nav .btn:hover{
+    background-color: rgba(0, 82, 204, 1);
+    color: white;
+}
+
+nav .logo{
+   width: 250px;
+   height: 200px;
+   position: relative;
+   left: 530px;
+}
+
+.rowform{
+    display: flex;
+    margin: 0 60px;
+    /* height: calc(100vh - 386px); */
+}
+
+.background-image{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../../public/img/bg.png');
+    background-size: cover;
+    position: relative;
+    bottom: 250px;
+}
+
+.background-image img{
+    Width: 700.43px;
+    Height: 550.71px;
+    position: relative;
+    top: 180px;
+}
+
+.content{
+    position: relative;
+    top: 50px;
+    text-align: end;
+}
+
+.content .key{
+font-family: 'Roboto', sans-serif;
+font-size: 50px;
+font-weight: 300;
+/* line-height: 73px; */
+letter-spacing: 0em;
+text-align: right;
+color: white;
+
+}
+
+.content .digital{
+    font-size: 70px;
+    font-weight: 700;
+    /* line-height: 153px; */
+    letter-spacing: 0em;
+    text-align: right;
+    color: rgba(0, 82, 204, 1);
+    margin-top: -15px;
+    
+}
+
+.content .para{
+  width: 530px;
+  height: 131px;
+  font-family: Inter;
+font-size: 18px;
+font-weight: 300;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: right;
+color: white;
+margin-top: 10px;
+}
+
+.content .arrowbtn{
+  width: 55px;
+  height: 55px;
+  border-radius: 100%;
+  background-color: rgba(0, 82, 204, 1);
+  border: none;
+  position: relative;
+  bottom: 30px;
+}
+
+.content .arrowbtn img{
+    width: 25px;
+    height: 30px;
+}
+
+.content .knowmore{
+    Width:391.2px;
+    Height:69.92px;
+    border-radius: 33px;
+    background-color: rgba(0, 82, 204, 1);
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight:400;
+    font-size: 36.1px;
+    line-height:32.73px;
+    color: white;
+    position: relative;
+  bottom: 28px;
+}
+
+.animation{
+    position: absolute;
+    top: -450px;
+    left: -100px;
+    animation: cloudOne 1s linear;
+}
+.animation .cloud{
+    height: 100rem;
+    width: 100rem;
+}
+
+@keyframes cloudOne
+{
+    0%{
+        transform: translateX(-100%);
+    }
+
+    50%{
+        transform: translateX(-100%);
+    }
+    
+}
+
+
+.rotedstar{
+    animation: rotedlogo 2s linear;
+}
+
+@keyframes rotedlogo{
+   0%{transform: rotate(0);}
+   100%{transform: rotate(360deg);}
+
+   
+}  
+
+
+
+.slidestar{
+    animation: halfstar 2s linear;
+}
+
+@keyframes halfstar
+{
+    0%{
+        transform: translateX(100%);
+    }
+
+    50%{
+        transform: translateX(-100%);
+    }
+    
+}
+
+
+
+.slidestar2{
+    animation: halfstar2 2s linear;
+}
+
+@keyframes halfstar2
+{
+    0%{
+        transform: translateX(-100%);
+    }
+
+    50%{
+        transform: translateX(100%);
+    }
+    
+}
+
+
+.slidestar3{
+    animation: halfstar3 2s linear;
+}
+
+@keyframes halfstar3
+{
+    0%{
+        transform: translateX(0%);
+    }
+
+    50%{
+        transform: translateX(120%);
+    }
+    
+}
+
+
+.slidestar4{
+    animation: halfstar4 2s linear;
+}
+
+@keyframes halfstar4
+{
+    0%{
+        transform: translatey(0%);
+    }
+
+    50%{
+        transform: translatey(120%);
+    }
+    
+}
+
+
+.slidestar5{
+    animation: halfstar5 2s linear;
+}
+
+@keyframes halfstar5
+{
+    0%{
+        transform: translatey(-120%);
+    }
+
+    50%{
+        transform: translatey(50%);
+    }
+    
+}
