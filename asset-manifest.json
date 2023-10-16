@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/bluespace/static/css/main.9a386274.css",
-    "main.js": "/bluespace/static/js/main.2e0c766a.js",
+    "main.js": "/bluespace/static/js/main.fc8210cb.js",
     "static/media/bg.png": "/bluespace/static/media/bg.7c6db12dda718c187a2a.png",
     "index.html": "/bluespace/index.html",
     "main.9a386274.css.map": "/bluespace/static/css/main.9a386274.css.map",
-    "main.2e0c766a.js.map": "/bluespace/static/js/main.2e0c766a.js.map"
+    "main.fc8210cb.js.map": "/bluespace/static/js/main.fc8210cb.js.map"
   },
   "entrypoints": [
     "static/css/main.9a386274.css",
-    "static/js/main.2e0c766a.js"
+    "static/js/main.fc8210cb.js"
   ]
 }
