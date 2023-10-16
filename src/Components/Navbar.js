@@ -43,7 +43,7 @@ const Navbar = () => {
                       <img className='rotedstar' src='img/star.png' />
                        
                         <div className='animation'>
-                            <img className='cloud' src='img/cloud.png' />
+                            <img className='cloud' src='img/Cloud.png' />
                         </div>
                     </div>
 
