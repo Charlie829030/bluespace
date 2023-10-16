@@ -25,7 +25,7 @@ const Navbar = () => {
                 </div>
 
                 <div>
-                    <img className='logo' src='../img/LOGO2_1.png' />
+                    <img className='logo' src='img/LOGO2_1.png' />
                 </div>
 
                 <div>
@@ -40,21 +40,21 @@ const Navbar = () => {
                 <div className='rowform'>
                     <div className='background-image'>
 
-                      <img className='rotedstar' src='../img/star.png' />
+                      <img className='rotedstar' src='img/star.png' />
                        
                         <div className='animation'>
-                            <img className='cloud' src='../img/cloud.png' />
+                            <img className='cloud' src='img/cloud.png' />
                         </div>
                     </div>
 
                     <div className='content'>
-                        <div><img className='keylogo' src='../img/key.png' /></div>
+                        <div><img className='keylogo' src='img/key.png' /></div>
 
                         <div className='text'>
                             <h1 className='key'>Key to your</h1>
                             <h1 className='digital'>Digital Empire</h1>
                             <p className='para'>Lorem ipsum dolor sit amet consectetur. Eget dapibus tortor lacus diam duis sagittis accumsan neque. Amet tincidunt nam molestie fermentum fringilla eget nulla ultrices. Non convallis suspendisse scelerisque et. Proin sem at porttitor eros.</p>
-                            <button className='arrowbtn' onClick={scrollDown} ><img src='../img/arrow.png' /></button>
+                            <button className='arrowbtn' onClick={scrollDown} ><img src='img/arrow.png' /></button>
                         </div>
 
                     </div>
@@ -63,7 +63,7 @@ const Navbar = () => {
 
                 <div className='rowform'>
                     <div className='background-image'>
-                        <img className='slidestar' src='../img/deck.png' style={{ width: "60%" }} />
+                        <img className='slidestar' src='img/deck.png' style={{ width: "60%" }} />
                     </div>
 
                     <div className='content' style={{ marginTop: "150px" }}>
@@ -74,7 +74,7 @@ const Navbar = () => {
                             <p className='para'>Lorem ipsum dolor sit amet consectetur. Eget dapibus tortor lacus diam duis sagittis accumsan neque. Amet tincidunt nam molestie fermentum fringilla eget nulla ultrices. Non convallis suspendisse scelerisque et. Proin sem at porttitor eros.</p>
                             <button className='knowmore'>Know More</button>
                         </div>
-                        <button className='arrowbtn' onClick={scrollDown} style={{ marginTop: "40px" }}><img src='../img/arrow.png' onClick={scrollDown}/></button>
+                        <button className='arrowbtn' onClick={scrollDown} style={{ marginTop: "40px" }}><img src='img/arrow.png' onClick={scrollDown}/></button>
 
                     </div>
                 </div>
@@ -89,12 +89,12 @@ const Navbar = () => {
                             <p className='para' style={{ textAlign: "start" }}>Lorem ipsum dolor sit amet consectetur. Eget dapibus tortor lacus diam duis sagittis accumsan neque. Amet tincidunt nam molestie fermentum fringilla eget nulla ultrices. Non convallis suspendisse scelerisque et. Proin sem at porttitor eros.</p>
                             <button className='knowmore'>Know More</button>
                         </div>
-                        <button className='arrowbtn' onClick={scrollDown} style={{ marginTop: "40px" }}><img src='../img/arrow.png' /></button>
+                        <button className='arrowbtn' onClick={scrollDown} style={{ marginTop: "40px" }}><img src='img/arrow.png' /></button>
 
                     </div>
 
                     <div className='background-image'>
-                        <img className='slidestar2' src='../img/star2.png' style={{ height: "100vh", marginLeft: "125px" }} />
+                        <img className='slidestar2' src='img/star2.png' style={{ height: "100vh", marginLeft: "125px" }} />
                     </div>
 
                 </div>
@@ -109,20 +109,20 @@ const Navbar = () => {
                             <p className='para' style={{ textAlign: "start" }}>Lorem ipsum dolor sit amet consectetur. Eget dapibus tortor lacus diam duis sagittis accumsan neque. Amet tincidunt nam molestie fermentum fringilla eget nulla ultrices. Non convallis suspendisse scelerisque et. Proin sem at porttitor eros.</p>
                             <button className='knowmore'>Know More</button>
                         </div>
-                        <button className='arrowbtn' onClick={scrollUp} style={{ marginTop: "40px" }}><img src='../img/arrow2.png' /></button>
+                        <button className='arrowbtn' onClick={scrollUp} style={{ marginTop: "40px" }}><img src='img/arrow2.png' /></button>
 
                     </div>
 
                     <div className='background-image'>
-                        <img  className='slidestar5' src='../img/halfstar2.png' style={{ width: "55rem", height: "18rem", marginTop: "110px", position: "relative", right: "215px" }} />
+                        <img  className='slidestar5' src='img/halfstar2.png' style={{ width: "55rem", height: "18rem", marginTop: "110px", position: "relative", right: "215px" }} />
                     </div>
 
                     <div className='background-image'>
-                        <img className='slidestar4' src='../img/halfstar.png' style={{ width: "55rem", height: "18rem", marginTop: "390px", position: "relative", right: "64.5rem" }} />
+                        <img className='slidestar4' src='img/halfstar.png' style={{ width: "55rem", height: "18rem", marginTop: "390px", position: "relative", right: "64.5rem" }} />
                     </div>
 
                     <div className='background-image'>
-                        <img  className='slidestar3'  src='../img/star2.png' style={{ height: "80vh", width: "400px", marginLeft: "-83rem", marginTop: "110px" }} />
+                        <img  className='slidestar3'  src='img/star2.png' style={{ height: "80vh", width: "400px", marginLeft: "-83rem", marginTop: "110px" }} />
                     </div>
 
                 </div>
